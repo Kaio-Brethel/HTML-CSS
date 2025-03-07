@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links em HTML</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a {
+            color: rgb(97, 11, 97);
+            text-decoration: wavy;
+            font-weight: bolder;
+        }
+
+        a:visited {
+            color: blueviolet;
+        }
+
+        a:hover {
+            color: aqua;
+        }
+
+        a:active {
+            color: darkslateblue;
+        }
+
+        a::before {
+            content: '⭆';
+        }
+        a:after {
+            content: '⇚';
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+
+    <ul>
+            <li><a href="https://youtube.com/cursoemvideo/" target="_blank" rel="external">Canal no youtube</a></li>
+            <li><a href="https://gustavoguanabara.github.io" target="_blank" rel="external">Repositório do Github do Gustavo Guanabara</a></li>
+            <li><a href="https://www.cursoemvideo.com" target="_blank" rel="external">Site do Curso Em Video</a></li>
+    </ul>
+</body>
+</html>
+
+
+
+
+<!--é possível usar classes para dar mais ou menos importância num link específico.-->

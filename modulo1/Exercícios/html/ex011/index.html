@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens Dinâmicas</title>
+</head>
+<body>
+    <h1>Imagens Dinâmicas</h1>
+    <p>Tete abrir este site com outros dispositivos ou diminua o tamanho do seu navegador</p>
+
+    <picture><!--a ordem é extremamente impotante= pequena/média/grande!-->
+        <source media="(max-width: 750px)" srcset="imagens/imagempequena.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/imagemmedia.png" type="image/png">
+        <img src="imagens/imagemgrande.png" alt="imagem flexível">
+    </picture>
+    <h1>reproduzindo áudios</h1>
+    <p>vamos aprender a reproduzir áudios em html5</p>
+<!-- compatível com mp3,wav e ogg.-->
+<audio src="midia/hopeful.mp3" controls></audio>
+</body>
+</html>
