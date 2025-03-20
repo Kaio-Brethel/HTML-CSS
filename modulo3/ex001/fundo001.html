@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>teste de imagem de fundo</title>
+    <style>
+
+        body{
+            background-image: url(imagens/wallpaper001.jpg);
+        }
+
+        div.quadrado{
+            display: inline-block;
+            border: 2px solid black;
+            border-radius: 10px;
+            background-color: lightgray;
+            width: 300px;
+            height: 300px;
+        }
+
+        div#q1{
+            background-image: linear-gradient(to bottom, yellow, orange, red);
+        }
+
+        div#q2{
+            background-image: linear-gradient(to bottom, skyblue, rgb(50, 173, 214), rgb(0, 255, 255));
+        }
+
+        div#q3{
+            background-image: linear-gradient(to bottom, lightgreen, rgb(59, 255, 59), rgb(0, 252, 0));
+        }
+
+        div#q4{
+            background-image: url(imagens/pattern003.png)
+        }
+
+        h1{
+            color: rgb(55, 0, 255);
+            background-color: white;
+        }
+        p{
+            color: rgb(4, 0, 255);
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="quadrado" id="q1">
+
+    </div>
+    <div class="quadrado" id="q2">
+
+    </div>
+    <div class="quadrado" id="q3">
+
+    </div>
+    <div class="quadrado" id="q4">
+
+    </div>
+    <h1>como fiz isso?</h1>
+    <p>fiz isso usando o backgroundimage url e coloquei o pattern que eu queria, para botar wallpaper é só colocar isso no body pelo style!
+    </p>
+</body>
+</html>
