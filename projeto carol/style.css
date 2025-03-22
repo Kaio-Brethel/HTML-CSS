@@ -69,6 +69,11 @@ main > button:hover {
     color: white;
 }
 
+main > button::after{
+    background-color: #2F4D73;
+    color: #759499;
+}
+
 main > a {
     font-family: var(--padrao);
     margin-top: 10px;
