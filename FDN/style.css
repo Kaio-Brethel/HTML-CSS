@@ -7,8 +7,8 @@ html{
 }
 body{
     background-image: linear-gradient(to right, rgb(228, 228, 101), rgb(231, 231, 128), rgb(117, 95, 53));
-width: 1000px;
-margin: auto;
+    width: 1000px;
+    margin: auto;
 }
 main {
     background-image: linear-gradient(to right, white, lightgray);
