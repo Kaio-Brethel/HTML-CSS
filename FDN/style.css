@@ -1,0 +1,33 @@
+@charset "UTF-8";
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: bold;
+    font-style: oblique;
+}
+body{
+    background-image: linear-gradient(to right, rgb(228, 228, 101), rgb(231, 231, 128), rgb(117, 95, 53));
+
+}
+main {
+    background-image: linear-gradient(to right, white, lightgray);
+    padding: 50px;
+    border-radius: 45px;
+    margin: auto;
+}
+oqe{
+    margin-bottom: 30px;
+}
+fundadores {
+    margin-bottom: 30px;
+}
+hino {
+    margin-bottom: 25px;
+    background-color: rgb(255, 253, 145)
+}
+espalhar {
+    margin-bottom: 40px;
+}
+footer {
+    margin-bottom: 20px;
+}
